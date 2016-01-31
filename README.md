@@ -1,4 +1,7 @@
 # ChurchLifeApp  
+
+## How to push you changes to GitHub
+
 Для того, чтобы сделать изменения в проекте, необходимо сделать следующие шаги:  
 1. Создать fork (вилку) проекта ChurchAppLife в своём профиле.  
 2. Склонировать проект в папку на локальном компьютере.  
@@ -9,60 +12,80 @@
 7. Сделать Pull Request своих изменений в общий проект.  
 8. Радоваться проделанной работе.  
 ***
-## 1. Создать fork (вилку) проекта ChurchAppLife в своём профиле.  
+### 1. Создать fork (вилку) проекта ChurchAppLife в своём профиле.  
 Зайдите в общий проект ChristianITCommunity/ChurchLifeApp  
-И нажимте кнопку Fork  
-![Alt text](/images_for_readme/1.jpg?raw=true "Fork main project")   
+И нажимте кнопку Fork
+  
+![Alt text](/docs/images_for_readme/1.jpg?raw=true "Fork main project")   
+
 Перейдите в созданный проект в своём профиле (ваше имя)/ChurchLifeApp  
 И скопируйте адрес вашего проекта (можно нажать на значок копирования в буфер)  
-![Alt text](/images_for_readme/2.jpg?raw=true "Copy git adress")   
+
+![Alt text](/docs/images_for_readme/2.jpg?raw=true "Copy git adress")   
+
 ***
-## 2. Склонировать проект в папку на локальном компьютере.  
+### 2. Склонировать проект в папку на локальном компьютере.  
 Установите git на свой компьютер.  
-![Alt text](/images_for_readme/3.jpg?raw=true "Download Git")   
+
+![Alt text](/docs/images_for_readme/3.jpg?raw=true "Download Git")   
+
 Запустите терминал для гита:  
-![Alt text](/images_for_readme/4.jpg?raw=true "Git in PowerShell")   
+
+![Alt text](/docs/images_for_readme/4.jpg?raw=true "Git in PowerShell")   
+
 Перейдите в удобный для вас каталог коммандой "cd", например:  
-*cd D:\*   
+`cd D:\`   
 Для создания нового каталога используйте команду "mkdir", например:  
-*mkdir GitFolder*  
+`mkdir GitFolder`  
 Далее переходим в папку, в которой будет лежать наш проект:  
-*cd GitFolder*  
+`cd GitFolder`  
 Для клонирования проекта используем команду "git clone" и добавляем строку из буфера обмена (которую мы скопировали в нашем проекте на сайте GitHub) щёлкнув правой клавишей мышки  
-*git clone https://github.com/Samasiel/ChurchLifeApp.git*  
+`git clone https://github.com/Samasiel/ChurchLifeApp.git`  
 И переходим в созданную папку:  
-*cd ChurchLifeApp*  
-![Alt text](/images_for_readme/5.jpg?raw=true "Git clone")   
+`cd ChurchLifeApp`  
+
+![Alt text](/docs/images_for_readme/5.jpg?raw=true "Git clone")   
+
 ***
-## 3. Создать и войти в brunch (ветку) проекта на локальном компьютере.  
+### 3. Создать и войти в brunch (ветку) проекта на локальном компьютере.  
 Создайте новую ветку в своём локальном проекте. Для этого напишите команду: git checkout -b и в двойных кавычках вставьте название таска из Trello и короткое описание будущих изменений через нижнее подчёркивание  
-*git checkout -b "M579EPlq_Improve_readme.md"*  
-![Alt text](/images_for_readme/61.jpg?raw=true "New brunch")  
+`git checkout -b "M579EPlq_Improve_readme.md"`  
+
+![Alt text](/docs/images_for_readme/61.jpg?raw=true "New brunch")  
+
 ***
-## 4. Внести изменения в проект.  
+### 4. Внести изменения в проект.  
 ***
-## 5. Add (добавить) изменённые файлы, commit (зафиксировать) изменения и добавить комментарии.  
+### 5. Add (добавить) изменённые файлы, commit (зафиксировать) изменения и добавить комментарии.  
 Когда вы изменили нужные файлы, надо добавить изменения в проект. Git работает не с файлами, а с изменениями. Поэтому все изменения сначала нужно добавить, а потом зафиксировать.  
 Команда добавления: add. Звёздочка значит, что добавляются все файлы.  
-_git add *_  
+`git add *`  
 Команда фиксирования изменений: commit. Обязательно надо добавить параметр -m и в двойных скобках написать комментарий. Комментарий начинается с названия таска из Trello, и добавляется описание изменений.  
-*git commit -m "M579EPlq Add instruction to readme.md, about working with git"*  
+`git commit -m "M579EPlq Add instruction to readme.md, about working with git"`  
 В любой момент можно посмотреть статус (или состояние) проекта, командой:  
-*git status*  
-![Alt text](/images_for_readme/6.jpg?raw=true "Git add and commit")   
+`git status`  
+
+![Alt text](/docs/images_for_readme/6.jpg?raw=true "Git add and commit")   
+
 ***
-## 6. Push (затолкнуть) проект в свой профиль.  
+### 6. Push (затолкнуть) проект в свой профиль.  
 Push закинет ваши файлы на GitHub. В команде после слова origin указывается бранч, который надо закинуть:  
-*git push origin M579EPlq_Improve_readme.md*  
+`git push origin M579EPlq_Improve_readme.md`  
 Введите имя и пароль.  
-![Alt text](/images_for_readme/7.jpg?raw=true "Git push")  
+
+![Alt text](/docs/images_for_readme/7.jpg?raw=true "Git push")  
+
 ***
-## 7. Сделать Pull Request своих изменений в общий проект.  
+### 7. Сделать Pull Request своих изменений в общий проект.  
 Зайдите на GitHub, обновите страницу. Выберите ваш новый бранч и нажмите "New pull request".  
-![Alt text](/images_for_readme/8.jpg?raw=true "GitHub pull request")  
+
+![Alt text](/docs/images_for_readme/8.jpg?raw=true "GitHub pull request")  
+
 Обратите внимание, что ваша ветка должна быть написана справа/снизу, а ветка куда вы пушите изменения - слева/сверху.  
-![Alt text](/images_for_readme/9.jpg?raw=true "GitHub pull request")  
+
+![Alt text](/docs/images_for_readme/9.jpg?raw=true "GitHub pull request")  
+
 Жмём "Create pull request"  
 ***
-## 8. Радоваться проделанной работе.  
+### 8. Радоваться проделанной работе.  
 Сожмите руку в кулак, поднимите большой палец и скажите самому себе: "Я - МОЛОДЕЦ"))  

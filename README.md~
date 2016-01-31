@@ -37,7 +37,7 @@
 `cd ChurchLifeApp`  
 ![Alt text](/docs/images_for_readme/5.jpg?raw=true "Git clone")   
 ***
-### 3. Создать и войти в brunch (ветку) проекта на локальном компьютере.  
+## 3. Создать и войти в brunch (ветку) проекта на локальном компьютере.  
 Создайте новую ветку в своём локальном проекте. Для этого напишите команду: git checkout -b и в двойных кавычках вставьте название таска из Trello и короткое описание будущих изменений через нижнее подчёркивание  
 `git checkout -b "M579EPlq_Improve_readme.md"`  
 ![Alt text](/docs/images_for_readme/61.jpg?raw=true "New brunch")  

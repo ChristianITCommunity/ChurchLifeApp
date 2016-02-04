@@ -1,0 +1,22 @@
+{
+  "name": "ChurchLifeApp",
+  "description": "Church rooms reservation app",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "https://github.com/ChristianITCommunity/ChurchLifeApp",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}

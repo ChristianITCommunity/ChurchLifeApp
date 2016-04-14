@@ -1,0 +1,9 @@
+{
+  "port" : 3000,
+  "postgre": {
+    "uri": "postgres://cl:cl@localhost:5432/cl"
+  },
+  "logger": {
+    "level": "debug"
+  }
+}
